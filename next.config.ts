@@ -31,11 +31,6 @@ const nextConfig: NextConfig = {
   },
 
   reactStrictMode: false,
-
-  // 👇 YE ADD KARNA HAI
-  eslint: {
-    ignoreDuringBuilds: true,
-  },
 };
 
 export default nextConfig;
